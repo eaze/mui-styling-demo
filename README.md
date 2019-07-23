@@ -1,3 +1,24 @@
+## Purpose
+
+This app demos the styling features of [Material UI ("MUI")](https://material-ui.com/), and makes it easy to test out approaches without all the noise of a larger app.
+
+Feel free to use this as a playground for developing MUI-based components in isolation.
+
+## Demo
+
+MUI offers several styling solutions, including:
+
+1. [`makeStyles`](https://material-ui.com/styles/advanced/#makestyles)
+2. [`useTheme`](https://material-ui.com/styles/advanced/#accessing-the-theme-in-a-component)
+3. [`styled`](https://material-ui.com/styles/basics/#styled-components-api)
+4. [`withStyles`](https://material-ui.com/styles/advanced/#withstyles)
+
+In addition, MUI also offers the ability to define a theme for your app via [`ThemeProvider`](https://material-ui.com/customization/themes/#theme-provider), which includes things like the color palette and override styles for MUI components.
+
+This app demos how to use each of these to accommodate your app's styling needs. You can find a demo component for each in `src/components/mui/`. Each will have a file named after the styling solution, e.g. `makeStyles`, and will include links to docs, along with some notes to compare it to the other styling solutions. Further, you will find the custom theme I've created for this demo app in there: `customTheme.js`.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
